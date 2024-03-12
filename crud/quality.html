@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quality</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>Deploy the quality of your products</h1> 
+   <form action="quality.php" method="post">
+    <label for="name">Enter Product Name</label><br>
+    <input type="text" name="name" required><br>
+    <label for="items">Enter number of items</label><br>
+    <input type="number" name="items" maxlength="3" required><br>
+    <label for="quality">Enter the quality</label><br>
+    <label for="low">LOW</label>
+    <input type="radio" name="quality" id="low" value="low">
+    <label for="high">HIGH</label>
+    <input type="radio" name="quality" id="high" value="high">
+    <label for="mid">MID</label>
+    <input type="radio" name="quality" id="mid" value="mid"><br>
+    <label for="date">Input date</label><br>
+    <input type="date" name="date" placeholder="date" required>
+    <label for="email">Enter your Email</label>
+    <input type="email" name="email" required>
+    <label for="amount">Enter amount for each</label>
+    <input type="number" name="amount" required>
+    <button type="submit" name="submit">submit</button>
+   </form>
+</body>
+</html>
